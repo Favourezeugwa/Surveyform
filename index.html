@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <main>
+  <body>
+    <div>
+      <h1 id="title">Project Management Survey Form</h1>
+      <p id="description">
+        <em>Thank you for taking the time to improve the platform</em>
+      </p>
+    </div>
+      <form id="survey form">
+          <div>
+        <label for="name">Name</label><br />
+        <input
+          type="text"
+          id="name-label"
+          placeholder="Enter your name"
+        /><br /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="text"
+          id="email-label"
+          placeholder="Enter your Email"
+        /><br /><br />
+        <label for="number">Age(optional)</label><br />
+        <input type="number" id="number-label" min="10" max="70" />
+        <br /><br />
+        <label for="dropdown"
+          >Which option best describes your current role?</label
+        ><br />
+        <select
+          current
+          role="dropdown"
+          id="dropdown"
+          placeholder="select your current role"
+          style="width: 150px"
+        >
+          <option value="" disabled selected>Select an Option</option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+    </div>
+        <div>
+        <p>Would you love to be a Project Manager?</p>
+        <label for="Definitely">
+            <input type="radio" name="Definitely">Definitely</label></br>
+        <label for="Maybe">
+            <input type="radio" name="Maybe">Maybe</label></br>
+        <label for="Not sure"> 
+            <input type="radio" name="Not sure">Not sure</label>
+        </div></br>
+        
